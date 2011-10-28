@@ -1,0 +1,42 @@
+body {
+  background: #deeded;
+  font-family: Arial, sans-serif;
+  color: #555;
+}
+p {text-align: center; padding: 16px 0 0 0;}
+.layout {
+  background: #deeded;
+}
+.page {
+  background: #fff;
+}
+.page-header {
+  background: #aaa;
+  height: 100px;
+}
+.logo-box {
+  background: #bedded;
+  height: 100px;
+}
+.main-nav {
+  background: #c0c1ea;
+  height: 100px;
+}
+.page-content {
+  background: #fff;
+  margin: 12px 0;
+  /*height: 600px;*/
+}
+.page-footer {
+  background: #a1bed0;
+  height: 100px;
+}
+
+.photo-display-box {
+  background: #bedded;
+  height: 480px;
+}
+.control-panel {
+  background: #c0c1ea;
+  height: 480px;
+}

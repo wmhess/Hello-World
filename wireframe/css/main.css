@@ -1,0 +1,34 @@
+/* reset type stuff */
+* {margin: 0; padding: 0;}
+body {}
+
+/* html5 specific selectors */
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+/* the grid */
+.layout {width: 960px;}
+.page {}
+.column {float: left;}
+.group {clear: both; overflow: auto;}
+
+.full {width:960px;}
+.half {width:480px;}
+.one-third {width:320px;}
+.two-thirds {width:640px;}
+.one-fourth {width:240px;}
+.three-fourths {width:720px;}
+.one-fifth {width:192px;}
+.two-fifths {width:384px;}
+.three-fifths {width:576px;}
+.four-fifths {width:768px;}
+.one-sixth {width:160px;}
+.five-sixths {width:800px;}
+
+.centered {float: none; margin: 0 auto;}
+
+/* the page elements */
+.page-header {}
+.logo-box {}
+.main-nav {}
+.page-content {}
+.page-footer {}
