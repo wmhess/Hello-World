@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page Title</title>
+  <script type="text/javascript" charset="utf-8">
+    function Pbj(bread, crust, flavor, grind) {
+      this.bread = bread;
+      this.crust = crust;
+      this.flavor = flavor;
+      this.grind = grind;
+      this.toString = function() {
+          return "On my sandwich I want " + this.bread + " bread, " + this.flavor + " jelly, and " + this.grind + " peanut butter.";
+      };
+    };
+    
+    var pbjC = new Pbj('Schwebel\'s', true, 'Orange', 'Smooth');
+    document.write(pbjC.toString());
+    console.log(pbjC.toString());
+  </script>
+</head>
+<body>
+  <h1>JavaScript notes</h1>
+  <p>This example goes along with the text from "Javascript Enlightenment" - Cody Lindley: p. 19 and then takes looks at the Basic Constructor pattern from Essential Javascript Design Patterns by Addy Osmani.</p>
+  
+</body>
+</html>

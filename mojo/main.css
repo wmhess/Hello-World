@@ -1,0 +1,28 @@
+body {
+   /* basic styles */
+   
+   /* think about it before you go much further... Do the mobile first! */
+   
+   background: #ccc;
+ }
+
+ @media all and (max-width: 600px) {
+   body {
+     /* extra styles for mobile */
+     background: #CC0;
+   }
+ }
+
+ @media all and (max-device-width: 600px) {
+   body {
+     /* extra styles for mobile */
+     background: #CC0;
+   }
+ }
+
+
+ @media all and (min-width: 600px) {
+   body {
+     /* extra styles for desktop */
+   }
+ }
