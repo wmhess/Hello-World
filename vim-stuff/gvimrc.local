@@ -1,0 +1,13 @@
+  " Settings for MacVim
+
+  " default MacVim colorscheme:
+colorscheme basalt
+
+:set guifont=Bitstream\ Vera\ Sans\ Mono\ Bold:h14
+
+ " Instead of typing escape to switch to normal mode try this:
+inoremap ;; <esc>
+" tell vim to shut the fuck up
+:set vb
+
+:set cpoptions+=$
