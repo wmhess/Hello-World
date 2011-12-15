@@ -7,7 +7,7 @@ colorscheme basalt
 
  " Instead of typing escape to switch to normal mode try this:
 inoremap ;; <esc>
-" tell vim to shut the fuck up
+" tell vim to shut up
 :set vb
 
 :set cpoptions+=$
