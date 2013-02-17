@@ -5,3 +5,9 @@ It's another day and wow, look I wrote something. And here is something else.
 Another day another line of text.
 
 And here's another one.
+
+Renamed the remote for this repo from "origin" to "github" because that's where the remote lives.
+
+Here's the command:
+
+git remote rename origin github
